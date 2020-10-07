@@ -1,38 +1,79 @@
-.App {
+body, html{
+  margin: 0;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.buscador{
+  margin-top: -22px;
+  padding: 40px 0px;
+  background-image: url(https://cdn.pixabay.com/photo/2017/06/23/17/46/desert-2435404__340.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  font-size: 1.55em;
+  margin-bottom: 50px;
+  height: 50vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.buscador h1{
+  margin-top: 15vh;
+  color: rgb(32, 30, 30);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.image{
+  height: 15vw;
+  margin: 5px;
+  display: inline-block;
+
+  border-radius: 5px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
 }
 
-.App-link {
-  color: #61dafb;
+.input{
+  height: 40px;
+  border-radius: 3px;
+  width: 30vw;
+  padding: 0 1vw;
+  border: 0px solid;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.button{
+  margin-left: 5px;
+  height: 40px;
+  width: 80px;
+  cursor: pointer;
 }
+
+form div{
+  display: inline-block;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(172, 212, 112);
+}
+
+.image{
+  cursor: pointer;
+}
+.content{
+  visibility: hidden;
+}
+.body > .content{
+  background-color: greenyellow;
+}
+
+input[type=search] {
+  font-size: 1.3rem;
+  padding: 2px 7px;
+  border-radius: 4px;
+  box-shadow: none;
+  border: 1px solid #d6d6d6;
+  background: #efefef;
+}
+
+
